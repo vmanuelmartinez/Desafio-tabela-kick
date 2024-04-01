@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Desafio Tabela</title>
+    <meta charset="utf-8">
+    <style>
+        :root {
+            --bg_site: #ecedee;
+            --bg_table: #ffffff;
+            --c_border: #000000;
+            --c_th: #19c419;
+            --c_th_text: #000000;
+        }
+
+        body {
+            background-color: var(--bg_site);
+        }
+
+
+        table {
+            margin: auto;
+            text-align: center;
+            border-spacing: 0px;
+            background-color: var(--bg_table);
+            width: 600px;
+            height: 400px;
+        }
+
+        #cabecalho{
+            height: 50px;    
+            }
+
+        #cabecalho2{
+            height: 40px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid var(--c_border);
+        }
+
+        th {
+            background-color: var(--c_th);
+            color: var(--c_th_text);
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead id="cabecalho">
+            <tr>
+                <th colspan="3">
+                    Tabela de Productos
+                </th>
+            </tr>
+        </thead>
+
+        <tr id="cabecalho2">
+            <th>Código</th>
+            <th>Nome</th>
+            <th>Preço</th>
+        </tr>
+
+        <tr>
+            <td>001</td>
+            <td>Pão</td>
+            <td>R$ 0,50</td>
+        </tr>
+
+        <tr>
+            <td>002</td>
+            <td>Queijo</td>
+            <td>R$ 5,80</td>
+        </tr>
+
+        <tr>
+            <td>003</td>
+            <td>Leite</td>
+            <td>R$ 10,45</td>
+        </tr>
+
+        <tr>
+            <td>004</td>
+            <td>Biscoito</td>
+            <td>R$ 3,90</td>
+        </tr>
+
+        <tr>
+            <td>005</td>
+            <td>Arroz</td>
+            <td>R$ 30,00</td>
+        </tr>
+
+        <tr>
+            <td>006</td>
+            <td>Manteiga</td>
+            <td>R$ 5,65</td>
+        </tr>
+
+        <tr>
+            <td>007</td>
+            <td>Atum</td>
+            <td>R$ 10,11</td>
+        </tr>
+
+        <tr>
+            <td>008</td>
+            <td>Maçã 20 unidades</td>
+            <td>R$ 8,30 </td>
+        </tr>
+
+        <tr>
+            <td>009</td>
+            <td>Sabonete</td>
+            <td>R$ 3,20 </td>
+        </tr>
+    </table>
+</body>
+
+</html>
